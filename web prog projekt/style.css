@@ -56,28 +56,6 @@ body {
 
 
 
-/* Hero sekcija */
-.container-fluid {
-    background-image: url('https://via.placeholder.com/1200x400');
-    background-size: cover;
-    background-position: center;
-    color: #fff;
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
-}
-
-.container-fluid h1 {
-    font-size: 2.5rem;
-    font-weight: bold;
-}
-
-.container-fluid p {
-    font-size: 1.2rem;
-}
-
-.container-fluid .btn-primary {
-    background-color: #27352A;
-    border: none;
-}
 
 
 
@@ -155,12 +133,15 @@ footer a:hover {
         object-fit: cover;
     }
 
-.c-img{
 
-    height: 500%;
-    object-fit: cover;
+/*filteri*/
+.form-select {
+    margin-bottom: 15px;
+    border: 1px solid #27352A;
+    border-radius: 5px;
 }
 
-
-    
-    
+label {
+    font-weight: bold;
+    color: #333;
+}
